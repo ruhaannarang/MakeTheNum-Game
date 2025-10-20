@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Cabin+Sketch:wght@400;700&display=swap');
+.body{
+  background-color: rgb(31, 31, 31);
+  /* background-color: rgb(19, 19, 127); */
+}
+*{
+  font-family: "BBH Sans Bartle", cursive;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.firstpage{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.siteName{
+  font-size: xx-large;
+  color: white;
+  text-shadow: aqua 2px 0 2px;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+}
+.rulesSection{
+  width: 70%;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow:aqua 2px 0px 2px  ;
+  padding: 30px;
+} 
+.rulesHeading{
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+.rules{
+  text-align: center;
+  /* margin-top: 40px; */
+  /* list-style: none; */
+  font-size: large;
+  padding-left: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: gray;
+  float: left;
+}
+.rulesPoints{
+  text-align: center;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.startbtn{
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  border: 2px solid white;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.playpage{
+  background-color: rgb(31, 31, 31);
+}
