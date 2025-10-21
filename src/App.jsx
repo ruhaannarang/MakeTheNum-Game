@@ -4,9 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Homepage from './components/homepage'
 import Play from './components/play'
+import Win from './components/Win'
 import { useSelector, useDispatch } from 'react-redux'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
-import { increment,decrement,multiply,divide} from './redux/counter/counterSlice'
+import { increment,decrement,multiply,divide,reset} from './redux/counter/counterSlice'
 
 function App() {
   const  router=createBrowserRouter([
@@ -16,6 +17,10 @@ function App() {
     {
       path:"/play",
       element:<><Play/></>
+    },
+    {
+      patah:"/won",
+      element:<><Win/></>
     }
   ])
   // const [count, setCount] = useState(0)

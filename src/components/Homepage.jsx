@@ -6,7 +6,7 @@ const Homepage = () => {
        <div className='body'>
         <div className="firstpage">
 
-          <div className="siteName">Make  the  number</div>
+          <div className="siteName">Improve your calculation</div>
           <div className="rulesSection">
             <div className="rulesHeading">Rules</div>
             <div className="rulesPoints">
