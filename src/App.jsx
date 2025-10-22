@@ -19,7 +19,7 @@ function App() {
       element:<><Play/></>
     },
     {
-      patah:"/won",
+      path:"/won",
       element:<><Win/></>
     }
   ])
